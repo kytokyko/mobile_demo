@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15116" started-at="2019-08-26T13:12:10Z" finished-at="2019-08-26T13:12:25Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="15116" started-at="2019-08-26T13:12:10Z" finished-at="2019-08-26T13:12:25Z">
+      <class name="com.leafBot.testcases.TC001_SelectDropDown">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="startReport" is-config="true" duration-ms="391" started-at="2019-08-26T13:12:10Z" finished-at="2019-08-26T13:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-26T13:12:10Z" finished-at="2019-08-26T13:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="setUpClass" is-config="true" duration-ms="129" started-at="2019-08-26T13:12:10Z" finished-at="2019-08-26T13:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="report" is-config="true" duration-ms="9" started-at="2019-08-26T13:12:10Z" finished-at="2019-08-26T13:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="6594" started-at="2019-08-26T13:12:10Z" finished-at="2019-08-26T13:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="dropDown()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="dropDown" duration-ms="3130" started-at="2019-08-26T13:12:17Z" finished-at="2019-08-26T13:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="afterMethod" is-config="true" duration-ms="5188" started-at="2019-08-26T13:12:20Z" finished-at="2019-08-26T13:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2019-08-26T13:12:25Z" finished-at="2019-08-26T13:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC001_SelectDropDown@5abca1e0]" name="stopReport" is-config="true" duration-ms="374" started-at="2019-08-26T13:12:25Z" finished-at="2019-08-26T13:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.leafBot.testcases.TC001_SelectDropDown -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
