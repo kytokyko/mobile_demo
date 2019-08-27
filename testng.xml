@@ -3,12 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.leafBot.testcases.TC001_SelectDropDown"/>
-    <!--   <class name="com.leafBot.testcases.TC002_InputForm"/>
+      <!-- <class name="com.leafBot.testcases.TC001_SelectDropDown"/>
+      <class name="com.leafBot.testcases.TC002_InputForm"/>
       <class name="com.leafBot.testcases.TC003_multi_dropdown"/>
       <class name="com.leafBot.testcases.TC004_CheckBoxSelect"/>
       <class name="com.leafBot.testcases.TC005_Radio_Button"/>
       <class name="com.leafBot.testcases.TC006_JqueryDropDown"/> -->
+      <class name="com.leafBot.testcases.TC007_BootstrapDatePicker"/>
       
       
       
