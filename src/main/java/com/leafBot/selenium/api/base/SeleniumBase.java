@@ -37,6 +37,8 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 
 	public static RemoteWebDriver driver;
 	public static WebDriverWait wait;
+
+	
 	int i=1;
 	@Override
 	public void click(WebElement ele) {
@@ -524,6 +526,44 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 		String text = ele.getText();
 		System.out.println("the element " + ele + "is clicked and the text is : " + text);
 	}
+	@Override
+	public void date_webtable(int date_value,List<WebElement> ele,WebElement ele_1) 
+	{
+		String date_result="12/07/2019";
+		ele_1.click();
+		
+		String before = ((WebElement) ele).getText();
+		System.out.println("current date : " + before);
+		ele_1.click();
+	
+		String after_click_prev = ((WebElement) ele).getText();
+		System.out.println("after click prev : " + after_click_prev);
+		int days_count = ele.size();
+		System.out.println("the total days is : " + days_count);
+		
+		
+		for (int i = 1; i <=days_count; i++) {
+			String day = ele.get(i).getText();
+			if(day.equals(date_value)) 
+			{
+				ele.get(i).click();
+				String date_text = ((WebElement) ele).getText();
+				
+				if(date_text.equals(date_result))
+				{
+					System.out.println("the expected : " + ele);
+				}else
+				{
+					System.out.println("the not expected : " + ele);
+				}
+			}
+		}
+	}
+}
+
+		
+
 	
 
-}
+
+

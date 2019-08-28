@@ -194,6 +194,8 @@ public interface Element {
 	
 	public void get_text(WebElement ele);
 	
+	public void date_webtable(int date,List<WebElement> days_count,WebElement ele);
+	
 	
 }
 

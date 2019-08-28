@@ -3,19 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.leafBot.testcases.TC002_InputForm">
+      <class name="com.leafBot.testcases.TC007_BootstrapDatePicker">
         <methods>
           <include name="stopReport"/>
           <include name="beforeMethod"/>
           <include name="setUpClass"/>
           <include name="report"/>
+          <include name="calender"/>
           <include name="startReport"/>
+          <include name="setData"/>
           <include name="afterMethod"/>
           <include name="tearDownClass"/>
-          <include name="Input_form"/>
-          <include name="setData"/>
         </methods>
-      </class> <!-- com.leafBot.testcases.TC002_InputForm -->
+      </class> <!-- com.leafBot.testcases.TC007_BootstrapDatePicker -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

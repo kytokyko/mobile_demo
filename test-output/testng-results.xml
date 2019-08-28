@@ -1,48 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25670" started-at="2019-08-28T10:51:05Z" finished-at="2019-08-28T10:51:31Z">
+  <suite name="Suite" duration-ms="23971" started-at="2019-08-28T13:20:43Z" finished-at="2019-08-28T13:21:07Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="25670" started-at="2019-08-28T10:51:05Z" finished-at="2019-08-28T10:51:31Z">
+    <test name="Test" duration-ms="23971" started-at="2019-08-28T13:20:43Z" finished-at="2019-08-28T13:21:07Z">
       <class name="com.leafBot.testcases.TC007_BootstrapDatePicker">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="startReport" is-config="true" duration-ms="1107" started-at="2019-08-28T10:51:04Z" finished-at="2019-08-28T10:51:05Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="startReport" is-config="true" duration-ms="578" started-at="2019-08-28T13:20:42Z" finished-at="2019-08-28T13:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="setData" is-config="true" duration-ms="0" started-at="2019-08-28T10:51:05Z" finished-at="2019-08-28T10:51:05Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="setData" is-config="true" duration-ms="2" started-at="2019-08-28T13:20:43Z" finished-at="2019-08-28T13:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="setUpClass" is-config="true" duration-ms="337" started-at="2019-08-28T10:51:05Z" finished-at="2019-08-28T10:51:05Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="setUpClass" is-config="true" duration-ms="167" started-at="2019-08-28T13:20:43Z" finished-at="2019-08-28T13:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="report" is-config="true" duration-ms="40" started-at="2019-08-28T10:51:05Z" finished-at="2019-08-28T10:51:05Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="report" is-config="true" duration-ms="9" started-at="2019-08-28T13:20:43Z" finished-at="2019-08-28T13:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="9797" started-at="2019-08-28T10:51:06Z" finished-at="2019-08-28T10:51:15Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="17319" started-at="2019-08-28T13:20:43Z" finished-at="2019-08-28T13:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="calender()[pri:6, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="calender" duration-ms="9708" started-at="2019-08-28T10:51:15Z" finished-at="2019-08-28T10:51:25Z">
+        <test-method status="FAIL" signature="calender()[pri:6, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="calender" duration-ms="3169" started-at="2019-08-28T13:21:00Z" finished-at="2019-08-28T13:21:03Z">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[com.sun.proxy.$Proxy16 cannot be cast to org.openqa.selenium.WebElement]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: com.sun.proxy.$Proxy16 cannot be cast to org.openqa.selenium.WebElement
+at com.leafBot.selenium.api.base.SeleniumBase.date_webtable(SeleniumBase.java:535)
+at com.leafBot.pages.DatePickerPage.select_date(DatePickerPage.java:51)
+at com.leafBot.testcases.TC007_BootstrapDatePicker.calender(TC007_BootstrapDatePicker.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calender -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="afterMethod" is-config="true" duration-ms="5696" started-at="2019-08-28T10:51:25Z" finished-at="2019-08-28T10:51:31Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="afterMethod" is-config="true" duration-ms="3255" started-at="2019-08-28T13:21:03Z" finished-at="2019-08-28T13:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2019-08-28T10:51:31Z" finished-at="2019-08-28T10:51:31Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2019-08-28T13:21:07Z" finished-at="2019-08-28T13:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="stopReport" is-config="true" duration-ms="760" started-at="2019-08-28T10:51:31Z" finished-at="2019-08-28T10:51:32Z">
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC007_BootstrapDatePicker@5abca1e0]" name="stopReport" is-config="true" duration-ms="523" started-at="2019-08-28T13:21:07Z" finished-at="2019-08-28T13:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->

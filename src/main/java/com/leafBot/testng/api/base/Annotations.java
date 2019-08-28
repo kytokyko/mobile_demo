@@ -24,7 +24,8 @@ public class Annotations extends SeleniumBase {
   }
 
 	
-	  @AfterMethod public void afterMethod() throws InterruptedException
+  @AfterMethod
+	  public void afterMethod() throws InterruptedException
 	  {
 	  Thread.sleep(3000);
 	  close(); 

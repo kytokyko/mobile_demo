@@ -17,7 +17,7 @@ public class TC007_BootstrapDatePicker extends Annotations{
 	}
 	
 	@Test(priority=6)
-	public void calender()
+	public void calender() throws InterruptedException
 	{
 		new SeleniumHomePage().datePicker().select_date();
 	}
