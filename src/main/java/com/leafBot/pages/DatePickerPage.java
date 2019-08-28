@@ -3,6 +3,7 @@ package com.leafBot.pages;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -17,7 +18,7 @@ public class DatePickerPage extends Annotations {
 	}
 	
 	@FindBy(how=How.XPATH, using="//i[@class='glyphicon glyphicon-th']") WebElement calender;
-	@FindBy(how=How.XPATH, using="//table[@class='table-condensed']//td") List<WebElement> web_data_table;
+	@FindAll(@FindBy(how=How.XPATH, using="//table[@class='table-condensed']//td")) List<WebElement> web_data_table;
 
 
 	public DatePickerPage select_date()
