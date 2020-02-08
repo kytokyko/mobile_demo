@@ -559,6 +559,14 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 			}
 		}
 	}
+	@Override
+	public void hover_to_element(WebElement ele) {
+		// TODO Auto-generated method stub
+		wait = new WebDriverWait(driver, 10);
+		Actions a =new Actions(driver);
+		a.moveToElement(ele).perform();
+		
+	}
 }
 
 		
