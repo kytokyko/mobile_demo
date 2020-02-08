@@ -1,126 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="93204" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:57:03Z">
+  <suite name="Suite" duration-ms="91833" started-at="2020-02-08T17:57:49 IST" finished-at="2020-02-08T17:59:21 IST">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="93204" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:57:03Z">
-      <class name="com.leafBot.testcases.TC001_SignIN">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="startReport" is-config="true" duration-ms="282" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:55:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="setData" is-config="true" duration-ms="1" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:55:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="setData" is-config="true" duration-ms="0" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:55:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="setData" is-config="true" duration-ms="0" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:55:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="setUpClass" is-config="true" duration-ms="63" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:55:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="report" is-config="true" duration-ms="4" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:55:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="beforeMethod" is-config="true" duration-ms="17743" started-at="2020-02-07T00:55:30Z" finished-at="2020-02-07T00:55:48Z">
+    <test name="Test" duration-ms="91833" started-at="2020-02-08T17:57:49 IST" finished-at="2020-02-08T17:59:21 IST">
+      <class name="com.leafBot.testcases.TC_001">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC_001@4923ab24]" name="beforeMethod" is-config="true" duration-ms="26470" started-at="2020-02-08T17:57:49 IST" finished-at="2020-02-08T17:58:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="sign_in(java.lang.String, java.lang.String)[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="sign_in" duration-ms="9922" started-at="2020-02-07T00:55:48Z" data-provider="fetchData" finished-at="2020-02-07T00:55:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kaushbabbi@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[CENA@wwe2014]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="click_element()[pri:0, instance:com.leafBot.testcases.TC_001@4923ab24]" name="click_element" duration-ms="65347" started-at="2020-02-08T17:58:16 IST" finished-at="2020-02-08T17:59:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sign_in -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="afterMethod" is-config="true" duration-ms="3097" started-at="2020-02-07T00:55:58Z" finished-at="2020-02-07T00:56:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-02-07T00:56:01Z" finished-at="2020-02-07T00:56:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.leafBot.testcases.TC001_SignIN@4e9ba398]" name="stopReport" is-config="true" duration-ms="194" started-at="2020-02-07T00:57:03Z" finished-at="2020-02-07T00:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopReport -->
-      </class> <!-- com.leafBot.testcases.TC001_SignIN -->
-      <class name="com.leafBot.testcases.TC003_hovering">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="setUpClass" is-config="true" duration-ms="0" started-at="2020-02-07T00:56:01Z" finished-at="2020-02-07T00:56:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="report" is-config="true" duration-ms="0" started-at="2020-02-07T00:56:01Z" finished-at="2020-02-07T00:56:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="beforeMethod" is-config="true" duration-ms="17563" started-at="2020-02-07T00:56:28Z" finished-at="2020-02-07T00:56:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="hover()[pri:2, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="hover" duration-ms="10538" started-at="2020-02-07T00:56:45Z" finished-at="2020-02-07T00:56:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hover -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="afterMethod" is-config="true" duration-ms="7083" started-at="2020-02-07T00:56:56Z" finished-at="2020-02-07T00:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC003_hovering@527740a2]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-02-07T00:57:03Z" finished-at="2020-02-07T00:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.leafBot.testcases.TC003_hovering -->
-      <class name="com.leafBot.testcases.TC002_select_devices">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="setUpClass" is-config="true" duration-ms="1" started-at="2020-02-07T00:56:01Z" finished-at="2020-02-07T00:56:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="report" is-config="true" duration-ms="1" started-at="2020-02-07T00:56:01Z" finished-at="2020-02-07T00:56:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="beforeMethod" is-config="true" duration-ms="15799" started-at="2020-02-07T00:56:01Z" finished-at="2020-02-07T00:56:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="select_devices()[pri:1, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="select_devices" duration-ms="3695" started-at="2020-02-07T00:56:17Z" finished-at="2020-02-07T00:56:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- select_devices -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="afterMethod" is-config="true" duration-ms="7324" started-at="2020-02-07T00:56:21Z" finished-at="2020-02-07T00:56:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leafBot.testcases.TC002_select_devices@6d7b4f4c]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2020-02-07T00:56:28Z" finished-at="2020-02-07T00:56:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.leafBot.testcases.TC002_select_devices -->
+        </test-method> <!-- click_element -->
+      </class> <!-- com.leafBot.testcases.TC_001 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
