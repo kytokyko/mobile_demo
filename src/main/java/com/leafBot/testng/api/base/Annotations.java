@@ -8,28 +8,27 @@ import org.testng.annotations.DataProvider;
 
 import com.leafBot.selenium.api.base.SeleniumBase;
 
-import utils.DataLibrary;
 
 public class Annotations extends SeleniumBase {
 	
-	@DataProvider(name = "fetchData")
-	public Object[][] fetchData() throws IOException {
-		return DataLibrary.readExcelData(excelFileName);
-	}	
-  
+//	@DataProvider(name = "fetchData")
+//	public Object[][] fetchData() throws IOException {
+//		return DataLibrary.readExcelData(excelFileName);
+//	}	
+//  
   @BeforeMethod
   public void beforeMethod() {
-	startApp("chrome", "https://www.amazon.in/");
-	node = test.createNode(testcaseName);
+	  startApp("com.amazon.avod.thirdpartyclient", "com.amazon.avod.thirdpartyclient.LauncherActivity", "honor");
+	//node = test.createNode(testcaseName);
   }
 
 	
-  @AfterMethod
-	  public void afterMethod() throws InterruptedException
-	  {
-	  Thread.sleep(3000);
-	  close(); 
-	  }
+//  @AfterMethod
+//	  public void afterMethod() throws InterruptedException
+//	  {
+//	  Thread.sleep(3000);
+//	  close(); 
+//	  }
 	 
   
   
