@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test" verbose="10">
     <classes>
-      <class name="com.leafBot.testcases.TC_001"/>
+       <class name="com.leafBot.testcases.TC_001"/>
+       <class name="com.leafBot.testcases.TC_002"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -10,9 +10,7 @@ public class TC_001 extends Annotations{
 
     @Test
     public void click_element() throws InterruptedException {
-        new AppHomePage().scroll();
         new AppHomePage().search_usecase().scroll_to_language();
-//        new AppHomePage().scroll();
 
     }
 }
