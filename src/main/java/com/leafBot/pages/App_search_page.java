@@ -12,20 +12,12 @@ public class App_search_page extends Annotations{
     {
         PageFactory.initElements(driver, this);
     }
-    
-    
-    //
+   
 
     public Tamil_page scroll_to_language() throws InterruptedException {
     Thread.sleep(3000);
     
-    
-    
-    
-//    for ( WebElement lan : languages) {
-//    	System.out.println(lan.getText());
-//		
-//	}
+   
         
     scrollFromDownToUpinAppUsingPointerInputUntilElementIsVisible("xpath","//android.widget.TextView[@text='Tamil']");
        WebElement tamil_lang=driver.findElementByXPath("//android.widget.TextView[@text='Tamil']");

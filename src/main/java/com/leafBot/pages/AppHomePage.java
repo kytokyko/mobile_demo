@@ -49,18 +49,10 @@ public class AppHomePage extends Annotations{
         System.out.println(length);
         for (int i=0;i<length;i++)
         {
-            Thread.sleep(4000);
+            Thread.sleep(2000);
             click(driver.findElementsByXPath("//android.widget.ImageView[contains(@resource-id,'com.amazon.avod.thirdpartyclient:id/icon')]").get(i));
         }
 
-//        for (WebElement child_element:parent_element)
-//        {
-//
-//            click(child_element);
-//            Thread.sleep(4000);
-//
-//
-//        }
 
 
     
